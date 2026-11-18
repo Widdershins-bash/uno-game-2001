@@ -1,7 +1,9 @@
-# BUILD: uno game with terminal interface and computer(s) opponent
+from uno.game import Game
+from uno.player import ComputerPlayer, Player
 
 
-def main(): ...
+def main():
+    game = Game([Player("You"), ComputerPlayer("CPU")])
 
 
 if __name__ == "__main__":
