@@ -11,6 +11,7 @@ UNO with a terminal interface and computer opponent(s). Standard library only â€
 main.py            entry point
 uno/
   card.py          Card class
+  constants.py     Import anywhere
   deck.py          Deck (draw pile)
   player.py        Player, ComputerPlayer
   game.py          Game state + main loop
